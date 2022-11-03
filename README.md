@@ -7,6 +7,18 @@ yarn add -D @nuxtjs/tailwindcss
 yarn dev
 ```
 
+Edit `nuxt.config.ts` to be: 
+
+```// https://v3.nuxtjs.org/api/configuration/nuxt.config
+export default defineNuxtConfig({
+      buildModules: ['@nuxtjs/tailwindcss']
+})
+```
+
+- remove App.vue
+- create pages directory
+- add index.vue and vue content 
+
 # Nuxt 3 Minimal Starter
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
