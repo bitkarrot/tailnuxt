@@ -1,4 +1,7 @@
-# Install instructions for nuxt3 with tailwindcss
+# Install from scratch - nuxt3 with tailwindcss
+
+these are instructions to create nuxt3 rc12 with tailwindcss from scratch.
+if you don't need to create from scratch just clone this template. 
 
 ```
 npx nuxi init nuxt-app
