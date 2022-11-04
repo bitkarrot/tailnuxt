@@ -22,6 +22,16 @@ export default defineNuxtConfig({
 - create pages directory
 - add index.vue and vue content 
 
+# Nuxt 3 Resources 
+
+Links to components used in this template: 
+
+- [@nuxtjs/tailwindcss](https://tailwindcss.nuxtjs.org/)
+- [@nuxtjs/color-mode](https://color-mode.nuxtjs.org/)
+- [@nuxt/image-edge](https://image.nuxtjs.org/)
+- [Tabler Icons](https://tabler-icons.io/)
+
+
 # Nuxt 3 Minimal Starter
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
