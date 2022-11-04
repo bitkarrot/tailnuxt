@@ -14,7 +14,7 @@
           </h1>
           <div class="max-w-3xl mx-auto">
             <p class="text-xl text-gray-600 mb-6 dark:text-slate-400">
-              <span class='hidden md:inline'>TailNext is a production ready template to start your new website using Next.js + Tailwind CSS.</span> It has
+              <span class='hidden md:inline'>TailNuxt is a production ready template to start your new website using Nuxt.js + Tailwind CSS.</span> It has
               been designed following Best Practices, SEO, Accessibility, Dark Mode, great Page Speed, image
               optimization.
             </p>
@@ -51,3 +51,17 @@
     </div>
   </section>
 </template>
+
+
+<style>
+/* change .dark to be .dark-mode so that it can work with @nuxtjs/color-mode  */
+.dark-mode .dark\:bg-slate-700 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(51 65 85 / var(--tw-bg-opacity));
+}
+
+.dark-mode .dark\:hover\:bg-gray-800:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
+</style>

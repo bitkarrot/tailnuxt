@@ -2,7 +2,6 @@
     <head>
         <title>TailNuxt</title>
     </head>
-
     <Header />
         <main>
             <Hero/>
