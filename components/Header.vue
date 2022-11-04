@@ -94,20 +94,21 @@ color: #ebf4f1;
     background-color: rgb(55 65 81 / var(--tw-bg-opacity));
 }
 
-.dark-mode .dark\:hover\:text-white:hover {
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 @media (min-width: 768px) {
     .dark-mode .dark\:md\:bg-slate-900\/90 {
         background-color: rgb(15 23 42 / 0.9);
     }
 }
 
-.light-mode .bg-white {
+.bg-white {
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 768px) {
+    .md\:bg-white\/90 {
+        background-color: rgb(255 255 255 / 0.9);
+    }
 }
 
 .sepia-mode body {

@@ -5,7 +5,7 @@ export default defineNuxtConfig({
             '@nuxt/image-edge',
             '@nuxtjs/color-mode',
       ],
-      css: ['@/assets/main.css'],
+      css: ['@/assets/base.css'],
       colorMode: {    
             preference: 'system', // default value of $colorMode.preference    
             fallback: 'light', // fallback value if not system preference found  
