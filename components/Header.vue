@@ -48,12 +48,14 @@
         </ul>
         <div class="md:self-center flex items-center mb-4 md:mb-0 ml-2">
           <div class="hidden items-center md:flex">
-           <IconSun class="w-5 h-5" />
+            <button
+                @click="toggleDarkMode"
+                class="inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
+                <IconSun class="w-5 h-5"/>
+            </button>
             <a
               href="https://github.com/bitkarrot/tailnuxt"
-              class="inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5"
-              aria-label="TailNext Github"
-            >
+              class="inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
             <GitIcon class='w-5 h-5'/>
             </a>
           </div>
@@ -63,10 +65,19 @@
   </header>
 </template>
 
+
 <script setup>
-const colorMode = useColorMode()
-console.log("color mode preference: ", colorMode.preference)
+  const colorMode = useColorMode()
+  function toggleDarkMode()  {
+      if (colorMode.preference === "dark") {
+          colorMode.preference = "light"
+      } else if (colorMode.preference == "light") {
+          colorMode.preference = "dark"
+      }
+      console.log("local is now set to : ", colorMode.preference )          
+  }
 </script>
+
 
 <style>
 
@@ -92,6 +103,11 @@ color: #ebf4f1;
 .dark-mode .dark\:hover\:bg-gray-700:hover {
     --tw-bg-opacity: 1;
     background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+}
+
+.dark-mode .dark\:focus\:ring-gray-700:focus {
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgb(55 65 81 / var(--tw-ring-opacity));
 }
 
 @media (min-width: 768px) {
