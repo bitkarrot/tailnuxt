@@ -1,7 +1,16 @@
-# Install from scratch - nuxt3 with tailwindcss
+# TailNuxt template
 
-these are instructions to create nuxt3 rc12 with tailwindcss from scratch.
-if you don't need to create from scratch just clone this template. 
+This is a nuxtjs port of the tailnext.js template. 
+
+This was my first attempt to translate an existing template from react to vue, so there may be some errors. Pull requests are welcome. 
+
+# Built from Scratch - Nuxt3 with tailwindcss
+
+This repo was built from scratch. 
+
+If you just want to use the Tailnuxt template, simply clone this repo and build. 
+
+If you don't want to use this template but want to build Nuxt3 with Tailwindcss from scratch, here are the instructions. We used RC12 version of Nuxt3.
 
 ```
 npx nuxi init nuxt-app
@@ -18,11 +27,14 @@ export default defineNuxtConfig({
 })
 ```
 
+Then, do the following: 
+
 - remove App.vue
 - create pages directory
-- add index.vue and vue content 
+- add index.vue and your vue content accordingly.
 
-# Nuxt 3 Resources 
+
+# More Nuxt 3 Resources 
 
 Links to components used in this template: 
 
