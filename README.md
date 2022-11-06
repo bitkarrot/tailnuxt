@@ -1,6 +1,6 @@
 # TailNuxt template
 
-This is a nuxtjs port of the tailnext.js template. 
+This is a Nuxt3 port of the [Tailnext](https://github.com/onwidget/tailnext) template. 
 
 This was my first attempt to translate an existing template from react to vue, so there may be some errors. Pull requests are welcome. 
 
