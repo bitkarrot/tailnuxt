@@ -8,6 +8,14 @@ This was my first attempt to translate an existing template from react to vue, s
 
 This repo was built from scratch. 
 
+```
+$ yarn --version 
+1.22.19
+
+$ node --version 
+v16.15.1
+```
+
 If you just want to use the Tailnuxt template, simply clone this repo and build. 
 
 If you don't want to use this template but want to build Nuxt3 with Tailwindcss from scratch, here are the instructions. We used RC12 version of Nuxt3.
