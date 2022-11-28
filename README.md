@@ -6,7 +6,7 @@ This was my first attempt to translate an existing template from react to vue, s
 
 # Built from Scratch - Nuxt3 with tailwindcss
 
-This repo was built from scratch. 
+This repo was built from scratch with the following versions: 
 
 ```
 $ yarn --version 
