@@ -55,13 +55,9 @@
 
 <style>
 /* change .dark to be .dark-mode so that it can work with @nuxtjs/color-mode  */
-.dark-mode .dark\:bg-slate-700 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(51 65 85 / var(--tw-bg-opacity));
-}
 
 .dark-mode .dark\:hover\:bg-gray-800:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgb(31 41 55 / var(--tw-bg-opacity));
-}
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+} 
 </style>
